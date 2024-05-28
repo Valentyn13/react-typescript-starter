@@ -5,6 +5,7 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
+        "prepare": "simple-git-hooks",
         "preview": "vite preview",
         "build": "tsc && vite build",
         "lint:fs": "ls-lint",
