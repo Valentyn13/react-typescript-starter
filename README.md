@@ -74,6 +74,6 @@
 
 * ```lint:prettier:fix``` - run prettier on all project files
 
-* ```lint``` - run all scripts that not affect the code **lint:type && lint:css && lint:js && lint:fs**
+* ```lint``` - run all scripts that not affect the code: **lint:type && lint:css && lint:js && lint:fs**
 
-* ```lint:fix``` - run all scripts that **fix** code if it is possible **npm run lint:css:fix && npm run lint:js:fix && npm run lint:prettier:fix**
+* ```lint:fix``` - run all scripts that **fix** code if it is possible: **npm run lint:css:fix && npm run lint:js:fix && npm run lint:prettier:fix**
