@@ -15,9 +15,9 @@
 ```
 npx simple-git-hooks
 ```
- 4. Start project with command **`npm run start:dev`**
+ 4. Start project with command **`npm run dev`**
  ```
- npm run start:dev
+ npm run dev
  ```
  5. Enjoy coding ❤️
 
