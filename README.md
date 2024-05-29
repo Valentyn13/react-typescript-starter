@@ -58,9 +58,9 @@
 
 ## ⚙️ Scripts
 
-* ```lint:fs``` - check files and directories names to match ```([.a-z0-9]*)  ([-.][a-z0-9]+)*```
+* ```lint:fs``` - check files and directories names to match **([.a-z0-9]*)  ([-.][a-z0-9]+)***
 
-  Example:  ```drag-and-drop```, ```example-block.tsx```
+  Example:  **drag-and-drop**, **example-block.tsx**
 
 * ```lint:type``` - check typescript errors in the project
 
