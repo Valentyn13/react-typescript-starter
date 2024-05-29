@@ -4,18 +4,22 @@
 ## 🏃‍♂️ Simple Start
 
 1. Clone the repository, run command:
+
     ```
    git clone https://github.com/Valentyn13/react-typescript-starter.git
     ```
  2. Install dependencies with ```npm install```  command at the root of the project
+
     ```
     npm install
     ```
  3. Run command **`npx simple-git-hooks`** at the root
+
     ```
     npx simple-git-hooks
     ```
  4. Start project with command **`npm run dev`**
+
     ```
     npm run dev
     ```
@@ -62,14 +66,14 @@
 
 * ```lint:css``` - check ccs/scss files content to be valid
 
-* ```lint:css:fix``` - automatically fix css/scss errors acording to rules in ```.stylelintrc.yml``` file if it is possible
+* ```lint:css:fix``` - automatically fix css/scss errors acording to rules in **.stylelintrc.yml** file if it is possible
 
-* ```lint:js``` - start eslint checker with configuration in ```.eslintrc.cjs``` file
+* ```lint:js``` - start eslint checker with configuration in **.eslintrc.cjs** file
 
-* ```lint:js:fix``` - run eslint with ````--fix``` flag
+* ```lint:js:fix``` - run eslint with **--fix** flag
 
 * ```lint:prettier:fix``` - run prettier on all project files
 
-* ```lint``` - run all scripts that not affect the code ```lint:type && lint:css && lint:js && lint:fs```
+* ```lint``` - run all scripts that not affect the code **lint:type && lint:css && lint:js && lint:fs**
 
-* ```lint:fix``` - run all scripts that ```fix``` code if it is possible ```npm run lint:css:fix && npm run lint:js:fix && npm run lint:prettier:fix```
+* ```lint:fix``` - run all scripts that **fix** code if it is possible **npm run lint:css:fix && npm run lint:js:fix && npm run lint:prettier:fix**
