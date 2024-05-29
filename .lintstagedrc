@@ -1,1 +1,0 @@
-{ '*.{ts,tsx,json,md,scss,html,yml}': lint:prettier:fix }
