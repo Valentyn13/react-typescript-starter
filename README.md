@@ -14,19 +14,13 @@
     npm install
     ```
 
-3. Run command **`npx simple-git-hooks`** at the root
-
-    ```
-    npx simple-git-hooks
-    ```
-
-4. Start project with command **`npm run dev`**
+3. Start project with command **`npm run dev`**
 
     ```
     npm run dev
     ```
 
-5. Enjoy coding ❤️
+4. Enjoy coding ❤️
 
 ## 🥊 Code quality
 
