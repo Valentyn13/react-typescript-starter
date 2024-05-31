@@ -3,6 +3,7 @@
     "private": true,
     "version": "0.0.0",
     "type": "module",
+    "workspaces":["src"],
     "scripts": {
         "dev": "vite",
         "prepare": "simple-git-hooks",
@@ -12,9 +13,9 @@
         "lint:type": "npx tsc --noEmit",
         "lint:css": "npx stylelint \"*.scss\"",
         "lint:js": "npx eslint \"*.{ts,tsx}\"",
-        "lint:css:fix": "npx stylelint \"*.scss\" --fix\"",
+        "lint:css:fix": "npx stylelint \"src/**/*.{scss,module.scss}\" --fix\"",
         "lint:js:fix": "npx eslint \"*.{ts,tsx}\" --fix",
-        "lint:prettier:fix": "prettier --write \"*.{ts,tsx,json,md,scss,html,yml}\"",
+        "lint:prettier:fix": "prettier --write \"**/*.{ts,tsx,json,md,scss,html,yml}\"",
         "lint": "npm run lint:type && npm run lint:css && npm run lint:js && npm run lint:fs",
         "lint:fix": "npm run lint:css:fix && npm run lint:js:fix && npm run lint:prettier:fix"
     },
