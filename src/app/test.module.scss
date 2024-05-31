@@ -6,13 +6,15 @@
 }
 
 .bem {
+    width: 200px;
+    height: 200px;
     padding: 10px;
+    color: rosybrown;
+    border: 1px solid black;
 
     &__element {
         color: blue;
     }
-
-    color: rosybrown;
 
     p {
         a {
