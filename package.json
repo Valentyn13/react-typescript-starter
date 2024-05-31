@@ -22,7 +22,7 @@
         "lint:fix": "npm run lint:css:fix && npm run lint:js:fix && npm run lint:prettier:fix"
     },
     "simple-git-hooks": {
-        "pre-commit": "npx lint-staged",
+        "pre-push": "npx lint-staged",
         "commit-msg": "npx commitlint --edit $1"
     },
     "dependencies": {
